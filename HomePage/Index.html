@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../HomePage/assets/CSS/main.css"/>
+    <style>
+      .image {
+      position: relative; /* Set positioning context for absolute positioning */
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .bg {
+      position: absolute; 
+      top: 0;
+      left: 0;
+      width: 100%; /* Set the width to fill the container */
+      height: 100%; /* Set the height to fill the container */
+      background-image: url('../HomePage/assets/img/bg.jpeg'); /* Set the background image */
+      background-size: cover; /* Cover the entire container */
+      background-position: center; /* Center the background image */
+      z-index: -1; /* Move the background image behind other content */
+    }
+
+    h2 {
+      color: white; /* Set the text color */
+      text-align: left; /* Center the text */
+      margin-top: 100px; /* Add some top margin */
+      margin-left: 150px;
+      font-size: 2.5rem;
+      
+    }
+     p{
+      color: white; /* Set the text color */
+      text-align: left; /* Center the text */
+      margin-left: 150px;
+      font-size: large;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="Head-top">
+         <ul>
+          <li id="l1"><i class="fas fa-phone"></i>+91 9384178442</li>
+          <li id="l2"><i class="fas fa-envelope"></i>Suryapanneer04@gmail.com</li>
+          <li id="l3"><i class="fas fa-map-marker-alt"></i>2/218 A,Vishwanath dass nagar sattur pincode-626203</li>
+        </ul>
+        <div id="socialmedia">
+             <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+             <a href="#"> <i class="fab fa-twitter"></i></a>
+             <a href="#"> <i class="fab fa-instagram"></i></a>
+             <a href="#"> <i class="fab fa-linkedin"></i></a>
+        </div>
+        </div>
+       <div class="nav-top">
+        <img src="../HomePage/assets/img/logo - Copy.png" class="logo" alt="logo ruedecode" width="100px" height="100px">
+          <ul class="page">
+            <li id="Home"><a href="">Home</a></li>
+            <li id="About"><a href="">About Us</a></li>
+            <li id="Services"><a href="">Services</a></li>
+            <li id="Courses"><a href="">Courses</a></li>
+            <li id="Contact"><a href="">Contact</a></li>
+            <button id="btn">Login/Register</button>
+
+          </ul>
+       </div>
+       <div class="image">
+        <div class="bg"></div>
+        <h2>Unlock the gateway  to<br> mastering software development<br> from inception to execution,<br> all under one roof</h2>
+          <p>Welcome to Ruedecode, your premier destination for 
+          comprehensive software training and top-notch <br> IT services tailored to elevate
+           your online presence. Whether you're looking to 
+           delve into the intricacies of <br>software development or seeking
+            expert guidance for website and domain design, we've got you covered.          
+          <br> 
+          <br>
+          <br>
+            Our software training programs are meticulously crafted to empower
+             individuals and organizations<br> with the knowledge and skills needed 
+             to thrive in the ever-evolving digital realm. From beginner-level <br>
+             courses to advanced specialties,our curated curriculum caters to learners 
+              of all levels, ensuring a<br> rewarding educational journey.
+            </p>
+      </div>
+   </div>
+   <div class="page-2">
+       <div>
+           <button id="btn1">About Us</button>
+           <p id="p1">Want to get a free consultation?<a href="">Contact Us</a></p>
+       </div>
+   </div>
+</body>
+</html>
