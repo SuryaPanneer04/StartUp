@@ -1,0 +1,137 @@
+
+body{
+  padding: 0%;
+  margin: 0%;
+}
+  .Head-top{
+    background-color: black;
+    flex-direction: column;
+    padding: 0;
+     margin: 0;
+  }
+  .Head-top>*{
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+  }
+  #l1{
+    margin-left: 100px;
+  }
+  #l2{
+    margin-left: 100px;
+  }
+  #l3{
+    margin-left: 100px;
+  }
+  #socialmedia{
+    margin-left: 100px;
+    color: white; 
+  }
+  .fas{
+    color: yellow;
+    width: 30px;
+  }
+  .fab{
+    color: white;
+  }
+    .nav-top {
+      background-color:rgb(255, 255, 255); /* Set background color */
+      padding: 10px; /* Add padding */
+      text-align: right;
+    }
+
+    .nav-top .page {
+      list-style-type: none; /* Remove bullet points */
+      margin: 10px; /* Remove default margin */
+      margin-right: 250px;
+      margin-top: 20px;
+      padding: 0; /* Remove default padding */
+    }
+
+    .nav-top .page li {
+      display: inline; /* Display list items horizontally */
+    }
+
+    .nav-top .page li a {
+      color: rgb(0, 0, 0); /* Set link color */
+      text-decoration: none; /* Remove underline */
+      padding: 20px; /* Add padding */
+      font-size:larger;
+      font-weight: bold;    
+    }
+
+    .nav-top .page li a:hover {
+       /* background-color: #fafafa;Change background color on hover */
+      text-decoration:underline;
+    }
+
+    #btn {
+      background-color: #e87a05; /* Set button background color */
+      border: none; /* Remove border */
+      color: white; /* Set text color */
+      padding: 10px 20px; /* Add padding */
+      text-align: center; /* Center text */
+      text-decoration: none; /* Remove underline */
+      display: inline-block; /* Display as inline-block */
+      font-size: 16px; /* Set font size */
+      margin: 7px 2px; /*  Add margin */
+      cursor: pointer; /* Add cursor pointer */
+      border-radius: 30px; 
+    }
+
+    #btn:hover {
+      background-color: #000000; /* Change background color on hover */
+    }
+    .logo{
+      float: left;
+      margin-left: 150px;
+      margin-top: -8px;
+    }
+    /* page 2  */
+     .page-2{
+        /* background-color: white;
+        width: 100vh;
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        justify-content: center;
+        margin-left: 600px;
+       margin-top:  150px; */
+           display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            margin-top:  150px;
+    }
+    
+    #btn1 {
+        background-color: #FF0048;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 30px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #btn1:hover {
+        background-color: #ff3366;
+    }
+    #p1 {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #000000;
+        margin-left: -10px;
+    }
+    #p1 a {
+        color: #FF0048;
+        text-decoration: none;
+    }
+    #p1 a:hover {
+        text-decoration: underline;
+    }
